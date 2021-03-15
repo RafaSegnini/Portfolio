@@ -1,0 +1,329 @@
+*{background-color: rgb(0, 0, 0,0);
+    margin: 0; }
+
+body{
+        font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+        color: white;
+        padding: 0;        
+        background-image: url(../images/Web.png);
+        font-size: 28px;
+    }
+
+/* --------------------------------NAVIGATION BAR TOP ------------------------------------     */
+nav{display: flex; padding:0 5%}
+.navigation{padding: 1%; margin: 1%; flex: 1 200px; margin-left: 2%; align-self: flex-end;}
+.navigation:nth-of-type(2) div:first-child{padding-left: 46.5%; align-self: center;}
+.navigation:nth-of-type(2) div:last-child{padding-left: 41.5%; align-self: center;}
+.navigation:nth-of-type(3) {display: flex; flex-flow: row;}
+/* -------------------------------------------------------------------------------------- */
+
+b{background-color: transparent;}
+
+.grid-container {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 43px;
+    align-content: center;
+   }
+  
+.home{
+  text-align: center;
+}
+
+#arrowUp {
+  background-image: url(../images/ArrowUp.png);
+  background-repeat: no-repeat;
+  position: absolute;
+  right: 41%;
+  top: 2%;
+  padding: 5%;
+  max-width: 550px;
+  z-index: 100;
+}
+
+/* .grid-subcontainer {
+  display: grid;
+  grid-template-columns: auto auto auto;
+  grid-gap: 0px;
+  justify-items: end;
+  }
+
+.grid-container p {
+  justify-content: center;
+  align-content: end;
+  font-size: 30px;
+  font-weight: 600;
+}
+
+.grid-subcontainer div {
+  font-size: 30px;
+  font-weight: 600;
+} */
+
+H1{
+    font-size: 74px;
+    padding: 50px 140px 0px 140px; 
+}
+
+H2{
+  font-family: "Oswald",Arial, Helvetica, sans-serif;
+  font-size: 32px;
+
+}
+
+
+#section1Grid {
+  margin: 0px;
+  display: grid;
+  padding: 0px 140px 0px 140px; 
+  grid-template-rows: 192px 192px 192px 192px 192px 192px 192px;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-template-areas:
+  "photo	metRaf	skillBox"
+  "photo	metRaf	skillBox"
+  "photo	metRaf	skillBox"
+  "photo	metRaf	skillBox"
+  "photoRef	metRaf	skillBox"
+  "empty	empty	skillBox"
+  "empty	empty	skillBox"
+}
+
+#empty{
+  grid-area: empty;
+  height: 192px;
+}
+
+.section1PhotoArea {
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  margin-right: 35px;
+  cursor: pointer;
+  display: grid;
+  align-content: start;
+}
+
+#photo{
+  grid-area: photo;
+  background-image: url("../images/PlcBoard.png");
+  /*background-repeat: no-repeat;*/
+}
+
+#photoRef{
+  margin-right: 35px;
+  grid-area: photoRef;
+  font-size: 18px;
+}
+
+.boxTitle{
+  margin-right: 0px;
+  margin-left: 35px;
+  grid-area: metRaf;
+  background-color: rgb(140, 125, 129);
+  padding: 28px 39px 0;
+}
+
+
+.boxTitle h2{
+  grid-area: metRaf;
+  background-color: rgb(140, 125, 129);
+  padding: 28px 39px;
+}
+
+#skillBox{
+  grid-area: skillBox;
+
+}
+
+.boxTextMeetRafC p{
+  margin-right: 35px;
+  margin-left: 35px;
+  padding: 28px 39px;
+  font-size: 28px;
+  font-family: "Agency FB",Arial, Helvetica, sans-serif;
+  background-color: rgb(140, 125, 129);
+}
+
+.boxTextMeetRafC h2{
+  margin-right: 35px;
+  margin-left: 35px;
+}
+
+.boxTextMeetRaf ul{
+  margin-right: 0px;
+  margin-left: 35px;
+  padding-left: 38px ;
+  padding-top: 28px;
+  font-weight: bold;
+  font-size: 28px;
+  font-family: "Agency FB",Arial, Helvetica, sans-serif;
+  font-weight: bolder;
+  background-color: rgb(140, 125, 129);
+}
+
+
+#section2Grid {
+  margin: 0px;
+  display: grid;
+  padding: 0px 140px 0px 140px; 
+  grid-template-rows: auto 168px 168px 168px 168px 168px 168px 168px ;
+  grid-template-columns: 30% 40% 30%;
+  grid-template-areas:
+  "	selfi	selfi	selfi	"
+"	sunSet	oParinga	path	"
+"	sunSet	oParinga	path	"
+"	rapidB	freo	path	"
+"	rapidB	freo	path	"
+"	coffee	freo	path	"
+"	coffee	freo	path	"}
+
+#selfi{
+  grid-area: selfi;
+  background-image: url(../images/Selfie.png);
+  background-repeat: no-repeat;
+  margin-bottom: 31px;
+  }
+
+#selfi h3{
+ margin-left: 150px;
+ margin-top: 30px;
+ font-family: "Oswald",Arial, Helvetica, sans-serif;
+}
+
+#sunSet{
+  grid-area: sunSet;
+  background-image: url(../images/SemaphoreSunSet.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  margin-right: 15px;
+  margin-bottom: 15px;
+}
+
+#rapidB{
+  grid-area: rapidB;
+  background-image: url(../images/RapidBay.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  margin-right: 15px;
+  margin-bottom: 15px;
+  margin-top: 15px;
+}
+
+#coffee{
+  grid-area: coffee;
+  background-image: url(../images/CoffeeFarm.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  margin-right: 15px;
+  margin-top: 15px;
+}
+
+#oParinga{
+  grid-area: oParinga;
+  background-image: url(../images/OParinka.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  margin-right: 15px;
+  margin-left: 15px;
+  margin-bottom: 15px;
+}
+
+#freo{
+  grid-area: freo;
+  background-image: url(../images/Fremantle.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  margin-right: 15px;
+  margin-left: 15px;
+  margin-top: 15px;
+}
+
+#path{
+  grid-area: path;
+  background-image: url(../images/SemaphorePathW.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  margin-left: 15px;
+}
+
+#footerGrid{
+  display: grid;
+  padding: 0px 140px 0px 140px; 
+  grid-template-columns: auto auto auto;
+  grid-template-rows: 120px 120Px;
+  grid-template-areas: 
+  "	phone	email	copyright	"
+  "	socialText	iconsContainer	iconsContainer	"  }
+
+#boxTextFooter{
+  font-size: 28px;
+  background-color: transparent;
+  font-family: "Agency FB",Arial, Helvetica, sans-serif;    
+}
+
+#phone{
+  grid-area: phone;
+  text-align: left;
+  }
+
+#email{
+  grid-area:email;
+  text-align: center;
+}
+
+#copyright{
+  grid-area: copyright;
+  text-align: right;
+}
+
+#socialText{
+  grid-area: socialText;
+  
+}
+
+#iconsContainer{
+  grid-area: iconsContainer;
+  }
+
+  
+#gridIcons{
+  display: grid;
+  grid-template-columns: auto auto auto auto auto;
+  grid-template-rows: 120px;
+  grid-template-areas: 
+  "Instagram Facebook Linkedin Twitter Pinterest"}
+
+#Instagram{
+  grid-area: Instagram;
+  background-image: url(../images/Instagram.png);
+  background-repeat: no-repeat;
+  background-size: auto;
+}
+
+#Facebook{
+  grid-area: Facebook;
+  background-image: url(../images/Facebook.png);
+  background-repeat: no-repeat;
+  background-size: auto;
+}
+
+#Linkedin{
+  grid-area: Linkedin;
+  background-image: url(../images/Linkedin.png);
+  background-repeat: no-repeat;
+  background-size: auto;
+}
+
+#Twitter{
+  grid-area: Twitter;
+  background-image: url(../images/Twitter.png);
+  background-repeat: no-repeat;
+  background-size: auto;
+}
+
+#Pinterest{
+  grid-area: Pinterest;
+  background-image: url(../images/Pinterest.png);
+  background-repeat: no-repeat;
+  background-size: auto;
+}
