@@ -33,7 +33,7 @@ $(document).ready(function (){
 $(document).ready(function (){
   $("#arrowElectoral").click(function (){
       $('html, body').animate({
-          scrollTop: $("#topTinyTails").offset().top
+          scrollTop: $("#arrowElectoral").offset().top
       }, 800);
   $("#arrowElectoral").hide(1000);
   });

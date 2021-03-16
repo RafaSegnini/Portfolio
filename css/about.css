@@ -15,6 +15,33 @@ nav{display: flex; padding:0 5%}
 .navigation:nth-of-type(2) div:first-child{padding-left: 46.5%; align-self: center;}
 .navigation:nth-of-type(2) div:last-child{padding-left: 41.5%; align-self: center;}
 .navigation:nth-of-type(3) {display: flex; flex-flow: row;}
+
+/* --------------- links colors ------------------------------------------------------------ */
+
+a:link {
+  color: green;
+  background-color: transparent;
+  text-decoration: none;
+}
+
+a:visited {
+  color: pink;
+  background-color: transparent;
+  text-decoration: none;
+}
+
+a:hover {
+  color: red;
+  background-color: transparent;
+  text-decoration: underline;
+}
+
+a:active {
+  color: yellow;
+  background-color: transparent;
+  text-decoration: underline;
+}
+
 /* -------------------------------------------------------------------------------------- */
 
 b{background-color: transparent;}
@@ -295,35 +322,35 @@ H2{
 
 #Instagram{
   grid-area: Instagram;
-  background-image: url(../images/Instagram.png);
+  background-image: url(../images/iconinstagram.png);
   background-repeat: no-repeat;
   background-size: auto;
 }
 
 #Facebook{
   grid-area: Facebook;
-  background-image: url(../images/Facebook.png);
+  background-image: url(../images/iconfacebook.png);
   background-repeat: no-repeat;
   background-size: auto;
 }
 
 #Linkedin{
   grid-area: Linkedin;
-  background-image: url(../images/Linkedin.png);
+  background-image: url(../images/iconlinkedin.png);
   background-repeat: no-repeat;
   background-size: auto;
 }
 
 #Twitter{
   grid-area: Twitter;
-  background-image: url(../images/Twitter.png);
+  background-image: url(../images/icontwitter.png);
   background-repeat: no-repeat;
   background-size: auto;
 }
 
 #Pinterest{
   grid-area: Pinterest;
-  background-image: url(../images/Pinterest.png);
+  background-image: url(../images/iconpinterest.png);
   background-repeat: no-repeat;
   background-size: auto;
 }
