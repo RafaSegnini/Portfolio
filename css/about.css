@@ -58,7 +58,7 @@ b{background-color: transparent;}
 }
 
 #arrowUp {
-  background-image: url(../images/ArrowUp.png);
+  background-image: url(../Images/ArrowUp.png);
   background-repeat: no-repeat;
   position: absolute;
   right: 41%;
@@ -132,7 +132,7 @@ H2{
 
 #photo{
   grid-area: photo;
-  background-image: url("/Images/PlcBoard.png");
+  background-image: url(../Images/PlcBoard.png);
   /*background-repeat: no-repeat;*/
 }
 
@@ -206,7 +206,7 @@ H2{
 
 #selfi{
   grid-area: selfi;
-  background-image: url(/Images/Selfie.png);
+  background-image: url(../Images/Selfie.png);
   background-repeat: no-repeat;
   margin-bottom: 31px;
   }
@@ -219,7 +219,7 @@ H2{
 
 #sunSet{
   grid-area: sunSet;
-  background-image: url(../images/SemaphoreSunSet.png);
+  background-image: url(../Images/SemaphoreSunSet.png);
   background-repeat: no-repeat;
   background-size: cover;
   margin-right: 15px;
@@ -228,7 +228,7 @@ H2{
 
 #rapidB{
   grid-area: rapidB;
-  background-image: url(../images/RapidBay.png);
+  background-image: url(../Images/RapidBay.png);
   background-repeat: no-repeat;
   background-size: cover;
   margin-right: 15px;
@@ -238,7 +238,7 @@ H2{
 
 #coffee{
   grid-area: coffee;
-  background-image: url(../images/CoffeeFarm.png);
+  background-image: url(../Images/CoffeeFarm.png);
   background-repeat: no-repeat;
   background-size: cover;
   margin-right: 15px;
@@ -247,7 +247,7 @@ H2{
 
 #oParinga{
   grid-area: oParinga;
-  background-image: url(../images/OParinka.png);
+  background-image: url(../Images/OParinka.png);
   background-repeat: no-repeat;
   background-size: cover;
   margin-right: 15px;
@@ -257,7 +257,7 @@ H2{
 
 #freo{
   grid-area: freo;
-  background-image: url(../images/Fremantle.png);
+  background-image: url(../Images/Fremantle.png);
   background-repeat: no-repeat;
   background-size: cover;
   margin-right: 15px;
@@ -267,7 +267,7 @@ H2{
 
 #path{
   grid-area: path;
-  background-image: url(../images/SemaphorePathW.png);
+  background-image: url(../Images/SemaphorePathW.png);
   background-repeat: no-repeat;
   background-size: cover;
   margin-left: 15px;
@@ -322,35 +322,35 @@ H2{
 
 #Instagram{
   grid-area: Instagram;
-  background-image: url(../images/iconinstagram.png);
+  background-image: url(../Images/iconinstagram.png);
   background-repeat: no-repeat;
   background-size: auto;
 }
 
 #Facebook{
   grid-area: Facebook;
-  background-image: url(../images/iconfacebook.png);
+  background-image: url(../Images/iconfacebook.png);
   background-repeat: no-repeat;
   background-size: auto;
 }
 
 #Linkedin{
   grid-area: Linkedin;
-  background-image: url(../images/iconlinkedin.png);
+  background-image: url(../Images/iconlinkedin.png);
   background-repeat: no-repeat;
   background-size: auto;
 }
 
 #Twitter{
   grid-area: Twitter;
-  background-image: url(../images/icontwitter.png);
+  background-image: url(../Images/icontwitter.png);
   background-repeat: no-repeat;
   background-size: auto;
 }
 
 #Pinterest{
   grid-area: Pinterest;
-  background-image: url(../images/iconpinterest.png);
+  background-image: url(../Images/iconpinterest.png);
   background-repeat: no-repeat;
   background-size: auto;
 }
