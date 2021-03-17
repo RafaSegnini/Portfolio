@@ -5,7 +5,7 @@ body{
         font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
         color: white;
         padding: 0;        
-        background-image: url(/Images/Web.png);
+        background-image: url(../Images/Web.png);
         font-size: 28px;
     }
 
