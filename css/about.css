@@ -5,7 +5,7 @@ body{
         font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
         color: white;
         padding: 0;        
-        background-image: url(../images/Web.png);
+        background-image: url(/Images/Web.png);
         font-size: 28px;
     }
 
@@ -132,7 +132,7 @@ H2{
 
 #photo{
   grid-area: photo;
-  background-image: url("../images/PlcBoard.png");
+  background-image: url("/Images/PlcBoard.png");
   /*background-repeat: no-repeat;*/
 }
 
@@ -206,7 +206,7 @@ H2{
 
 #selfi{
   grid-area: selfi;
-  background-image: url(../images/Selfie.png);
+  background-image: url(/Images/Selfie.png);
   background-repeat: no-repeat;
   margin-bottom: 31px;
   }
