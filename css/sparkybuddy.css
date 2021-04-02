@@ -11,7 +11,7 @@ html,body{
         height: 100vh;
         font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
         color: rgb(255, 255, 255);
-        background-image: url(../Images/CaseSparkyBackground.png);
+        background-image: url(/Images/CaseSparkyBackground.png);
         background-size: 100vw;
         font-size: 1.5vw;}
 
@@ -55,7 +55,7 @@ h6{font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 .pageMenuContainer{
     display: flex;
     width: 100vw;
-    height: 12vh;   
+    height: 18vh;   
     font-family: 'Agency FB', 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
     font-size: 2.0vw;
     flex-flow: column;
@@ -72,7 +72,7 @@ h6{font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 /* ------------------------------------------ HERO SPARKY ---------------------------------------------------------     */
 .heroSparkyContainer{
     display: flex;
-    height: 38vh;
+    height: 40vh;
     width: 100vw;
     justify-content: center;
     padding: 13vh;}
@@ -86,7 +86,7 @@ h6{font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 .descriptionContainer{
     display: flex;
     width: 100vw;
-    height: auto;   
+    height: 30vh;   
     flex-flow: column;
     align-items: center;}
 
