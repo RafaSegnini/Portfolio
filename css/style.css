@@ -12,6 +12,7 @@ html,body{
         font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
         color: rgb(255, 255, 255,.87);
         background-image: url(../Images/indexBackGround.png);
+        background-repeat: repeat;
         font-size: 1.5vw;
     }
 
