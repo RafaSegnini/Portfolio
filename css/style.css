@@ -31,6 +31,20 @@ html,body{
             }
         };
         
+        @media screen and (max-height:599px){
+            html,body{   
+                width: 100vw;
+                height: 100vh;
+                font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+                color: rgb(255, 255, 255,.87);
+                background-image: url(../Images/indexBackGround_599.png);
+                /* background-repeat: repeat; */
+                background-attachment: fixed;
+        
+                font-size: 1.5vw;
+            }
+        };
+        
     
 
 /* --------------------------------NAVIGATION BAR TOP ------------------------------------     */
