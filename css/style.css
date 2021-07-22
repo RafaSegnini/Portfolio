@@ -37,11 +37,11 @@ html,body{
         width: 100vw;
         height: 12vh;
         padding: 4vh 13vw;
-        justify-content: space-evenly;}
-
-    .navigation{display: flex; flex-grow: 1; justify-content: flex-end}
+        justify-content: space-evenly;
+        }   
+    .navigation{display: flex; justify-content: space-evenly; align-items: center; padding: 2vh;}
     
-/* --------------- links colors ------------------------------------------------------------- */
+/* --------------- link colors ------------------------------------------------------------- */
 
 a:link {
   text-decoration: none;
@@ -76,14 +76,14 @@ a:link {
 .heroContainer{
     display: flex;
     width: 100vw;
-    height: 99vh;
+    height: 106vh;
     justify-content: center;
     margin-top: -12vh;
     }
 
 .heroMainSize{
     display: flex;
-    width: 55vw;  
+    width: 624px;  
     justify-content: center;
     align-self: center;
 }
@@ -137,7 +137,7 @@ a:link {
     width: 100vw;
     height: 99vh; 
     margin: 0;
-    padding: 0 11vw 0 11vw;
+    padding: 5vh 11vw 5vh 11vw;
     }
 
 .column{
@@ -163,34 +163,35 @@ a:link {
 .lineSize{
     display: flex;
     width: 32vw;
+    padding: 1vh;
     }
 .textBoxSize{
     display: flex;
     width: 60vw;
-    }
+        }
 
 .textBoxSizeRight{
     display: flex;
     width: 60vw;
     align-self: flex-end;
-    }
+        }
 
 .fontIntroTitle{
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;   
-    font-size: 5vw;
+    font-size: 3.75vw;
     font-weight: bolder;
 }
 
 
 .boxSpaceIntro{
     display: flex;
-    height: 33vh;}
+    height: 35vh;}
 
 
 h4{
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-    font-size: 1.7vw;
-    font-weight: bolder;
+    font-size: 1.3vw;
+    font-weight: normal;
 }
 
 /* ---------------------------- Case Studies ------------------------------------------------------------------------------------------------------------------ */
