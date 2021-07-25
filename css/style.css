@@ -76,7 +76,7 @@ a:link {
 .heroContainer{
     display: flex;
     width: 100vw;
-    height: 106vh;
+    height: 100vh;
     justify-content: center;
     margin-top: -12vh;
     }
@@ -88,30 +88,15 @@ a:link {
     align-self: center;
 }
 
+/* ------------------------------- Arrows ----------------------------------- */
+
 .arrowDown{
     position: absolute;
     right: 50vw;
     top:95vh;
     z-index: 2;}
-/* ------------------------------- Arrows ----------------------------------- */
-.arrowDown2{
-   position: absolute;
-   right: 50vw;
-   top: 194vh;
-   z-index: 2;}
 
-.arrowDown3{
-    position: absolute;
-    right: 50vw;
-    top: 289vh;
-    z-index: 2;}
-
-.arrowDown4{
-    position: absolute;
-    right: 50vw;
-    top: 384vh;
-    z-index: 2;}
-
+ 
 .homeIcon{
     position: absolute;
     left: 48vw;
@@ -135,7 +120,7 @@ a:link {
 .flex-container{
     display: flex;
     width: 100vw;
-    height: 99vh; 
+    height: 100vh; 
     margin: 0;
     padding: 5vh 11vw 5vh 11vw;
     }
@@ -144,6 +129,9 @@ a:link {
     flex-direction: column; 
 }
 
+.row{
+    flex-direction: row;
+}
 .caseCard{
     background-color: rgb(39, 54, 64,0.7);
     display: flex;
@@ -185,7 +173,7 @@ a:link {
 
 .boxSpaceIntro{
     display: flex;
-    height: 35vh;}
+    height: 47vh;}
 
 
 h4{
@@ -194,10 +182,28 @@ h4{
     font-weight: normal;
 }
 
+.arrowDown2{
+    position: absolute;
+    right: 48vw;
+    top: 190vh;
+    z-index: 2;}
+ 
+ .homeIcon2{
+    position: absolute;
+    right: 10vw;
+    top: 189vh;
+    z-index: 3;}
+ 
+ .arrowUp2{
+    position: absolute;
+    right: 51vw;
+    top: 190vh;
+    z-index: 2;}
+
 /* ---------------------------- Case Studies ------------------------------------------------------------------------------------------------------------------ */
 .flex-viewPort{
     display: flex;
-    height: 98vh;
+    height: 100vh;
     width: 100vw;}
 
 .flex-cardContainer{
@@ -242,26 +248,43 @@ h4{
 .flexEnd{
     align-self: flex-end;
 }
-/* ---------------------------- Case Study -- Sparky Buddy ---------------------------------------- */
- 
-.heroSparkySize{
-    display: flex; 
-    width: 50vw;
-    justify-content: center;
-    align-self: center;}
 
-.logoSparkySize{
+/* ---------------------------- Case Study -- Tiny Tails Rescue ------------------------------------------------------------------------------------------------------ */
+.heroTinyTailsSize{
     display: flex;
-    width: 20vw;}
+    width: 50vw;}
 
-.iconsSparkySize{
+.logoTinyTailsSize{
+    display: flex;
+    width: 25vw;}
+
+.iconsTinyTailsSize{
     display: flex;
     width: 28vw;}
 
-.flex-columnsContainer_2_sparky{
+.flex-columnsContainer_2_tinyTails{
     display: flex;
     align-self: center;
     margin-left: 4vw;}
+
+.arrowDown3{
+    position: absolute;
+    right: 48vw;
+    top: 289vh;
+    z-index: 2;}
+
+.homeIcon3{
+    position: absolute;
+    right: 10vw;
+    top: 288vh;
+    z-index: 3;}
+     
+.arrowUp3{
+    position: absolute;
+    right: 51vw;
+    top: 289vh;
+    z-index: 2;} 
+
 /* ---------------------------- Case Study -- Electoral Commission SA ---------------------------------------- */
 .heroElectoralSize{
     display: flex;
@@ -282,29 +305,69 @@ h4{
     align-self: center;
     margin-left: -4vw;}
 
+.arrowDown4{
+    position: absolute;
+    right: 48vw;
+    top: 384vh;
+    z-index: 2;}
 
-/* ---------------------------- Case Study -- Tiny Tails Rescue ------------------------------------------------------------------------------------------------------ */
-.heroTinyTailsSize{
+.homeIcon4{
+    position: absolute;
+    right: 10vw;
+    top: 383vh;
+    z-index: 3;}
+     
+.arrowUp4{
+    position: absolute;
+    right: 51vw;
+    top: 384vh;
+    z-index: 2;} 
+    
+
+/* ---------------------------- Case Study -- Sparky Buddy ---------------------------------------- */
+ 
+.heroSparkySize{
+    display: flex; 
+    width: 50vw;
+    justify-content: center;
+    align-self: center;}
+
+.logoSparkySize{
     display: flex;
-    width: 50vw;}
+    width: 20vw;}
 
-.logoTinyTailsSize{
-    display: flex;
-    width: 25vw;}
-
-.iconsTinyTailsSize{
+.iconsSparkySize{
     display: flex;
     width: 28vw;}
 
-.flex-columnsContainer_2_tinyTails{
+.flex-columnsContainer_2_sparky{
     display: flex;
     align-self: center;
     margin-left: 4vw;}
 
+.arrowDown5{
+    position: absolute;
+    right: 48vw;
+    top: 482vh;
+    z-index: 2;}
+
+.homeIcon5{
+    position: absolute;
+    right: 10vw;
+    top: 481vh;
+    z-index: 3;}
+     
+.arrowUp5{
+    position: absolute;
+    right: 50vw;
+    top: 482vh;
+    z-index: 2;}
 
 
 /* -----------------------------    FOOTER   ------------------------------------------------------------------------------------------------ */
 .flex-viewPort-footer{
+    position: absolute;
+    top: 488vh;
     display: flex;
     height: 35vh;
     width: 100vw; border-top: 4px solid salmon;
