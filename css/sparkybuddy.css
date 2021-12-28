@@ -307,6 +307,8 @@ h6{font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 
 /* -----------------------------    FOOTER   ------------------------------------------------------------------------------------------------ */
 .flex-viewPort-footer{
+    position:relative;
+    top: 5vh;
     display: flex;
     height: auto;
     width: 100vw; border-top: 4px solid salmon;
