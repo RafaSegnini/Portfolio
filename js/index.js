@@ -50,7 +50,7 @@ $(document).ready(function (){
 $(document).ready(function (){
   $("#arrowIntroDown").click(function (){
       $('html, body').animate({
-          scrollTop: $("#topTinyTails").offset().top
+          scrollTop: $("#topElectoral").offset().top
       }, 800);
   });
 });
@@ -101,7 +101,7 @@ $(document).ready(function (){
 $(document).ready(function (){
   $("#arrowTinyTailsDown").click(function (){
       $('html, body').animate({
-          scrollTop: $("#topElectoral").offset().top
+          scrollTop: $("#topSparky").offset().top
       }, 800); 
   });
 });
@@ -110,7 +110,7 @@ $(document).ready(function (){
 $(document).ready(function (){
   $("#arrowTinyTailsUp").click(function (){
       $('html, body').animate({
-          scrollTop: $("#topIntro").offset().top        
+          scrollTop: $("#topElectoral").offset().top        
       }, 800); 
                
   });
@@ -153,7 +153,7 @@ $(document).ready(function (){
 $(document).ready(function (){
   $("#arrowElectoralDown").click(function (){
       $('html, body').animate({
-          scrollTop: $("#topSparky").offset().top
+          scrollTop: $("#topTinyTails").offset().top
       }, 800);
   });
 });
@@ -162,7 +162,7 @@ $(document).ready(function (){
  $(document).ready(function (){
   $("#arrowElectoralUp").click(function (){
       $('html, body').animate({
-          scrollTop: $("#topTinyTails").offset().top        
+          scrollTop: $("#topIntro").offset().top        
       }, 800);                
   });
 });
@@ -201,7 +201,7 @@ $(document).ready(function (){
  $(document).ready(function (){
   $("#arrowSparkyUp").click(function (){
       $('html, body').animate({
-          scrollTop: $("#topElectoral").offset().top        
+          scrollTop: $("#topTinyTails").offset().top        
       }, 800);                
   });
 });
