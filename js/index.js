@@ -81,7 +81,7 @@ $(document).ready(function (){
   $("#topTinyTails").mouseenter(function (){
   $("#arrowTinyTailsDown").show(300);
   $("#arrowTinyTailsUp").show(300);
-  $("#home3").show(300);
+  $("#home4").show(300);
            
   });
 });
@@ -91,7 +91,7 @@ $(document).ready(function (){
   $("#topTinyTails").mouseleave(function (){
   $("#arrowTinyTailsDown").hide(300);
   $("#arrowTinyTailsUp").hide(300);
-  $("#home3").hide(300);
+  $("#home4").hide(300);
            
   });
 });
@@ -118,7 +118,7 @@ $(document).ready(function (){
 
  //  back home click
 $(document).ready(function (){
-  $("#home3").click(function (){
+  $("#home4").click(function (){
       $('html, body').animate({
           scrollTop: $("#topNav").offset().top        
       }, 800);
@@ -135,7 +135,7 @@ $(document).ready(function (){
   $("#topElectoral").mouseenter(function (){
   $("#arrowElectoralDown").show(300); 
   $("#arrowElectoralUp").show(300);
-  $("#home4").show(300);
+  $("#home3").show(300);
         
   });
 });
@@ -145,7 +145,7 @@ $(document).ready(function (){
    $("#topElectoral").mouseleave(function (){
     $("#arrowElectoralDown").hide(300); 
     $("#arrowElectoralUp").hide(300);
-    $("#home4").hide(300);   
+    $("#home3").hide(300);   
    })
 });
 
@@ -169,7 +169,7 @@ $(document).ready(function (){
        
  //  back home click
  $(document).ready(function (){
-  $("#home4").click(function (){
+  $("#home3").click(function (){
       $('html, body').animate({
           scrollTop: $("#topNav").offset().top        
       }, 800);    
